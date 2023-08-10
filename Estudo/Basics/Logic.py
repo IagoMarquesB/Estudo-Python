@@ -73,3 +73,20 @@ if is_friend or is_user:  # -> Se um valor OU o outro for verdadeiro, a mensagem
 
 # O programa entra em um "circuito curto" porque ele não precisa ir para a segunda condição caso a primeira já seja verdadeira
 # Ou seja, o programa pula uma etapa da checagem que é desnecessária para seu bom funcionamento
+
+# O operador lógico == checa a igualdade dos valores
+print(True == 1)
+print("" == 1)
+print([] == 1)
+print(10 == 10.0)
+print([1, 2, 3] == [1, 2, 3])
+print("----------------------------------------------")
+# O operador lógico is checa se o local da memória onde o valor está guardado é o mesmo
+print(True is 1)
+print("" is 1)
+print([] is 1)
+print(10 is 10.0)
+# São duas listas diferentes que são armezanas em diferentes locais de memória,
+print([] is [])
+# uma estrutura de dados sempre que é criada, é criada em um novo local de memória
+print(10 is 10)  # Esses valores são simples e estão no mesmo local de memória

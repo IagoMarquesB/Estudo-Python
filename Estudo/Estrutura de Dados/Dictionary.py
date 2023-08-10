@@ -26,6 +26,10 @@ other_dictionary = {
     "d": "hello",
     "x": True
 }  # -> Podemos colocar qualquer valor nos dicionários, inclusive listas
+print("LAAAAAAAAAAAAAA")
+print(other_dictionary["c"][0]) #Acessa a key C, index 0 da lista
+other_dictionary["c"].append(4)
+print(other_dictionary["c"][3])
 
 # A mesma coisa pode ser feita com listas
 
